@@ -1,0 +1,29 @@
+{
+  "name": "openNativeView",
+  "version": "0.0.1",
+  "description": "openNativeView",
+  "cordova": {
+    "id": "openNativeView",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cordova",
+    "openNativeView",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.2"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}

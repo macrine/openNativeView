@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone="yes"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
+        id="openNativeView" version="0.0.1">
+  <name>openNativeView</name>
+  <js-module name="openNativeView" src="www/openNativeView.js">
+    <clobbers target="openNativeView"/>
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="openNativeView">
+        <param name="android-package" value="com.doves.plugins.openNativeView.Gate"/>
+      </feature>
+    </config-file>
+    <source-file src="src/android/openNativeView/Gate.java" target-dir="src/com/doves/plugins/openNativeView"/>
+  </platform>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="openNativeView">
+        <param name="ios-package" value="OpenNativeView"/>
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/OpenNativeView.h"/>
+    <source-file src="src/ios/OpenNativeView.m"/>
+
+  </platform>
+</plugin>
