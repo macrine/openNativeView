@@ -1,9 +1,9 @@
 {
-  "name": "open-native-view",
+  "name": "cordova-plugin-open-native-view",
   "version": "0.0.4",
   "description": "open native view",
   "cordova": {
-    "id": "open-native-view",
+    "id": "cordova-plugin-open-native-view",
     "platforms": [
       "android"
     ]
