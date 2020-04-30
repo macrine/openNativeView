@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8' standalone="yes"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
-        id="openNativeView" version="0.0.1">
-  <name>openNativeView</name>
+        id="open-native-view" version="0.0.4">
+  <name>Open Native View</name>
   <js-module name="openNativeView" src="www/openNativeView.js">
     <clobbers target="openNativeView"/>
   </js-module>
