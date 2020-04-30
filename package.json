@@ -1,6 +1,6 @@
 {
   "name": "open-native-view",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "open native view",
   "cordova": {
     "id": "open-native-view",
